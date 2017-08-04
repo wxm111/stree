@@ -1,0 +1,53 @@
+@import url(reset.css);
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+body {
+  font-size: .16rem; }
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; }
+  .wrap header {
+    width: 100%;
+    height: .5rem;
+    line-height: .5rem;
+    display: flex;
+    justify-content: space-around; }
+
+section {
+  width: 100%; }
+  section .big {
+    width: 85%;
+    height: 1.2rem;
+    overflow: hidden;
+    margin: .2rem auto;
+    border: 1px solid #ccc;
+    border-radius: 10px; }
+    section .big .top {
+      width: 100%;
+      height: .5rem;
+      background: red;
+      color: #fff;
+      display: flex;
+      padding: .1rem 5%;
+      justify-content: space-around; }
+    section .big .bottom {
+      width: 100%; }
+      section .big .bottom p {
+        width: 100%;
+        font-size: 12px; }
+        section .big .bottom p img {
+          width: .2rem;
+          height: .2rem; }
+
+/*# sourceMappingURL=style.css.map */
